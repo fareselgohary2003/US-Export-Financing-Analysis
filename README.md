@@ -1,79 +1,79 @@
 # U.S. Export Financing Analysis
 
 ## Project Overview
-This project analyzes U.S. Export Credit financing approvals to understand global financing distribution, exporter participation, and program structures.
+This project analyzes **U.S. Export Credit financing approvals** to understand how export financing programs support global trade and domestic industries.
 
-The analysis was built using Power BI to generate business insights from export financing data.
+Using **Power BI**, the dataset was explored to identify patterns in financing distribution across countries, industries, exporters, and financing programs.
 
 ---
 
 ## Tools Used
-
-- Power BI
-- Excel
-- Data Analysis
-- Business Intelligence
+- Power BI  
+- Excel  
+- Data Analysis  
+- Business Intelligence  
 
 ---
 
 ## Dataset
+The dataset contains information about U.S. export credit approvals including:
 
-The dataset includes:
+- Fiscal Year  
+- Country  
+- Exporter  
+- Program Type  
+- Financing Amount  
+- Policy Type  
+- Industry (NAICS Code)
 
-- Fiscal Year
-- Country
-- Exporter
-- Program Type
-- Financing Amount
-- Decision Status
-- Policy Type
-- NAICS Code
-
-Total records: **20,000+**
+Total records: **52,000+ export financing deals**
 
 ---
 
-# Dashboard Preview
+## Dashboard Preview
 
-## Executive Overview
+### Executive Overview
 ![Overview](images/overview.png.png)
 
----
-
-## Global Financing Distribution
+### Global Financing Distribution
 ![Global Financing](images/global_financing.png.png)
 
----
-
-## Program & Financing Structure
+### Program & Financing Structure
 ![Program Structure](images/program_structure.png.png)
 
----
-
-## Exporter Analysis
+### Exporter Analysis
 ![Exporter Analysis](images/exporter_analysis.png.png)
 
 ---
 
-# Key Business Insights
+## Key Insights
 
-- Export financing approvals are highly concentrated among a limited number of countries.
-- Long-term financing programs account for the largest share of total financing volume.
-- A small group of exporters dominate approval amounts.
-- Financing approvals show clear patterns across fiscal years.
+- Total approved export financing exceeded **$263 billion across more than 52,000 deals**.  
+- The **Guarantee program** represents the largest share of export financing approvals.  
+- Financing is concentrated in key markets including **Mexico, India, Turkey, UAE, Saudi Arabia, and China**.  
+- **Aircraft Manufacturing** is the largest industry supported by export financing.  
+- Major exporters such as **The Boeing Company** dominate approval volumes.  
+- Approximately **23% of financing supports small businesses**, highlighting the role of export credit programs in enabling smaller firms to access global markets.
 
 ---
 
-# Project Structure
+## Project Structure
 
 US-Export-Financing-Analysis
 │
 ├── data
-│   └── export_financing_cleaned.csv
+│ └── export_financing_cleaned.csv
 │
 ├── dashboard
-│   └── dashboard.pbix
+│ └── dashboard.pbix
 │
 ├── images
 │
 ├── docs
+
+
+---
+
+## Author
+Yassine  
+Engineering Student | Data Analysis & Business Intelligence
